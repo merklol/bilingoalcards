@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bilingoal_dialog_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="22dp"
+        android:background="@drawable/top_border">
+        <TextView
+            android:id="@+id/bilingoal_dialog_title_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Correct answer:"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/bilingoal_dialog_message_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/bilingoal_dialog_title_view"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="Hello"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bilingoal_dialog_continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/bilingoal_dialog_message_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="18dp"
+            android:text="@string/bilingoal_dialog_continue_btn"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

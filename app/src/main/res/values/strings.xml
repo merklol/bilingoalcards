@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Bilingoal Cards</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play_btn_description">play</string>
+    <string name="bottom_card_description">Tap to flip</string>
+    <string name="bilingoal_dialog_continue_btn">Continue</string>
+    <string name="newest_lessons_title">Newest Lessons</string>
+    <string name="all_lessons_title">All Lessons</string>
+
+    <string name="alert_dialog_title">Are you sure you want to quit?</string>
+    <string name="alert_dialog_message">You will lose the progress of the lesson if you quit now.</string>
+    <string name="alert_dialog_positive_btn">OK</string>
+    <string name="alert_dialog_negative_btn">Cancel</string>
+    <string name="congratulations_message">Congratulations!</string>
+    <string name="lesson_completed_message">Lesson completed</string>
+    <string name="continue_btn_text">Continue</string>
+
+    <string name="build_version">Build Version</string>
+    <string name="feedback_title">Send Feedback</string>
+    <string name="feedback_body">Report technical issues or suggest new features</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="email_subject">Feedback</string>
+    <string name="email_body">Describe the issue you have encountered</string>
+    <string name="email_title">Send Feedback</string>
+</resources>

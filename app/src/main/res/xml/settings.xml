@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference
+            app:key="build_version"
+            app:title="@string/build_version"
+            app:summary="@string/versionName"
+            app:iconSpaceReserved="false"/>
+    <Preference
+            app:key="feedback"
+            app:title="@string/feedback_title"
+            app:summary="@string/feedback_body"
+            app:iconSpaceReserved="false"
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"/>
+    <Preference
+            app:key="privacy"
+            app:title="@string/privacy"
+            app:iconSpaceReserved="false"
+            app:allowDividerAbove="true"
+            app:allowDividerBelow="true"/>
+</androidx.preference.PreferenceScreen>
