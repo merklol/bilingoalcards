@@ -22,7 +22,7 @@
 ## Features
 
 - Learn with flashcards
-- Listen to words and sentences pronounced correctly by a native speaker.
+- Listen to words, phrases and questions pronounced correctly by a native speaker.
 - Learn Chinese
 - Track your progress
 - Pinyin
