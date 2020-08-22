@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         MobileAds.initialize(this, initializationStatus -> {});
 
         interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        interstitialAd.setAdUnitId(getString(R.string.google_ads_unit_id));
         interstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdLoaded() {

@@ -1,6 +1,8 @@
+**/*/res/values/secrets.xml
 *.iml
 .gradle
 .idea
+/app/src/main/assets/audios
 /local.properties
 /.idea/caches
 /.idea/libraries

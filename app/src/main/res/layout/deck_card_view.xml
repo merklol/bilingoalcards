@@ -90,7 +90,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:textColor="@android:color/black"
-                tools:text=""/>
+                android:textAlignment="center"
+                tools:text="Test"/>
         <TextView
                 android:id="@+id/back_card_flip_btn"
                 android:layout_width="match_parent"
